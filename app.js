@@ -45,7 +45,7 @@ setServer.client.on(`interactionCreate`, async (interaction) => {
 
     let log = interaction.options.getString(`log`)
     console.log(log)
-    
+    //sd
     const embed = responseTemplates.searchIpResp(data.city)
     await interaction.reply({ embeds: [embed] })
 
