@@ -4,7 +4,7 @@ const SHODAN_TOKEN = process.env.SHODAN_TOKEN
 const CLIENT_ID = process.env.CLIENT_ID
 const TRACKING_CHANNEL_NAME = process.env.TRACKING_CHANNEL_NAME
 
-const fs = require('node:fs')
+const fs = require('node:fs') 
 const path = require('node:path')
 const { SlashCommandBuilder, Routes } = require('discord.js')
 const { REST } = require('@discordjs/rest')
